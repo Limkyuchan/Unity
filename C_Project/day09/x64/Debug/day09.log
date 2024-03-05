@@ -1,0 +1,5 @@
+﻿  day09.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day09\day09.cpp(56,34): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day09\day09.cpp(47,10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day09\day09.cpp(85,10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  day09.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\x64\Debug\day09.exe

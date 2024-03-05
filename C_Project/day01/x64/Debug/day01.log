@@ -1,0 +1,6 @@
+﻿  day01.cpp
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day01\day01.cpp(54,10): warning C4101: 'lv' :참조되지 않은 지역 변수입니다.
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day01\day01.cpp(53,9): warning C4101: 'monster_mp' :참조되지 않은 지역 변수입니다.
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day01\day01.cpp(55,11): warning C4101: 'atk' :참조되지 않은 지역 변수입니다.
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day01\day01.cpp(56,11): warning C4101: 'def' :참조되지 않은 지역 변수입니다.
+  day01.vcxproj -> C:\Users\sbsgame\Desktop\Kyuchan\C_Project\x64\Debug\day01.exe

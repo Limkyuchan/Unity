@@ -1,0 +1,9 @@
+﻿  day04.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(138,18): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(50,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(81,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(127,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(130,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(133,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day04\day04.cpp(136,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  day04.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\x64\Debug\day04.exe

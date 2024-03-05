@@ -1,0 +1,12 @@
+﻿  day15.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(39,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(39,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(40,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(40,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(41,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(41,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(42,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(42,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(43,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day15\day15.cpp(43,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int **' 형식의 인수 2과(와) 충돌합니다.
+  day15.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\x64\Debug\day15.exe

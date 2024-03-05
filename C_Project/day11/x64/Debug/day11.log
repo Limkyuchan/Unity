@@ -1,0 +1,4 @@
+﻿  day11.cpp
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day11\day11.cpp(86,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\sbsgame\Desktop\Kyuchan\C_Project\day11\day11.cpp(86,26): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  day11.vcxproj -> C:\Users\sbsgame\Desktop\Kyuchan\C_Project\x64\Debug\day11.exe

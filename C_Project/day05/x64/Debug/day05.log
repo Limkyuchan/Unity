@@ -1,0 +1,5 @@
+﻿  day05.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day05\day05.cpp(98,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day05\day05.cpp(122,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\day05\day05.cpp(137,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  day05.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\C\x64\Debug\day05.exe

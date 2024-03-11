@@ -1,0 +1,10 @@
+﻿  day17.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day17\day17.cpp(132,12): warning C4477: 'printf' : 서식 문자열 '%2d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day17\day17.cpp(132,12):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day17\day17.cpp(133,12): warning C4477: 'printf' : 서식 문자열 '%2d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day17\day17.cpp(133,12):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  day17.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\x64\Debug\day17.exe

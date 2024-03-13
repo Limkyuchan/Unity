@@ -1,0 +1,5 @@
+﻿  day19.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day19\day19.cpp(133,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day19\day19.cpp(143,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day19\day19.cpp(151,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  day19.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\x64\Debug\day19.exe

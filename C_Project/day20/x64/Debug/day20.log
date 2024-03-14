@@ -1,0 +1,5 @@
+﻿  day20.cpp
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day20\day20.cpp(194,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day20\day20.cpp(157,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\day20\day20.cpp(190,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  day20.vcxproj -> C:\Users\denni\OneDrive\바탕 화면\Unity\C_Project\x64\Debug\day20.exe

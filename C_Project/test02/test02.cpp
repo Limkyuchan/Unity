@@ -1,5 +1,4 @@
-﻿//#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 
 struct PRODUCT
@@ -28,7 +27,7 @@ int main()
 
 	// 상품 소개
 	showProduct(product);
-	printf("번호를 고르시면 원하는대로 상품이 순서대로 정렬됩니다.\n\n");
+	printf("번호를 고르시면 상품이 순서대로 정렬됩니다.\n\n");
 
 	// 상품 정렬하기
 	while (true)
@@ -81,7 +80,6 @@ void showProduct(PRODUCT* product)
 	printf("-------------------------------------------------\n\n");
 }
 
-
 void sortName(PRODUCT* product)
 {
 	PRODUCT temp;
@@ -101,7 +99,6 @@ void sortName(PRODUCT* product)
 	showProduct(product);
 }
 
-
 void sortLowPrice(PRODUCT* product)
 {
 	PRODUCT temp;
@@ -119,7 +116,6 @@ void sortLowPrice(PRODUCT* product)
 	}
 	showProduct(product);
 }
-
 
 void sortHighPrice(PRODUCT* product)
 {
@@ -139,7 +135,6 @@ void sortHighPrice(PRODUCT* product)
 	showProduct(product);
 }
 
-
 void sortGrade(PRODUCT* product)
 {
 	PRODUCT temp;
@@ -157,18 +152,3 @@ void sortGrade(PRODUCT* product)
 	}
 	showProduct(product);
 }
-
-
-/*
-
-문제 2) 정렬 문제 -> Bubble Sort 응용 가능 (함수 사용)
-번호, 상품명(상품명은 아무거나 상관 없음), 가격, 평점
-
-메뉴를 띄우고 뭐를 기준으로 정렬할건지 입력을 받고 그 순서대로 처리.
-
-이름순 정렬 -> 상품명 기준 이름순 정렬
-낮은 가격순 -> 가격 낮은순으로 정렬
-높은 가격순 -> 가격 높은순으로 정렬
-평점 순 -> 평점 높은 순으로 정렬
-
-*/

@@ -119,7 +119,7 @@ int main()
 
 
     // 텍스트 파일 입출력 예제)
-    FILE* fp;                     // 파일의 정보를 얻기 위해 파일의 메모리 주소를 가져온다.
+    FILE* fp;                         // 파일의 정보를 얻기 위해 파일의 메모리 주소를 가져온다.
     fp = fopen("test.txt", "r");      // 현재 test.txt의 위치: 현재 소스코드가 있는 곳의 경로
     if (fp == NULL)   printf("파일 열기 실패!\n");
     fclose(fp);

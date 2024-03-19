@@ -60,7 +60,7 @@ int main()
 {
     // 2024/03/12 : 동적 할당(문자열 관리, 확장성), 구조체
 
-    /*
+    
     // 동적 할당 예제 1)
     int length = 0;
     int* pList = NULL;      // NULL : 내가 가르키는 공간이 비어있다를 의미.
@@ -159,7 +159,7 @@ int main()
     }
     printf("전체 학생 평균 점수 : %d \n", sum / student);
     free(score);
-    */
+    
 
 
     // 구조체 예제 )

@@ -1,0 +1,7 @@
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\bin\Debug\day05.exe.config
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\bin\Debug\day05.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\bin\Debug\day05.pdb
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\obj\Debug\day05.csproj.AssemblyReference.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\obj\Debug\day05.csproj.CoreCompileInputs.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\obj\Debug\day05.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day05\obj\Debug\day05.pdb

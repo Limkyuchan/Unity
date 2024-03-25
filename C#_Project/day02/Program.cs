@@ -66,7 +66,7 @@ namespace day02
                 Console.WriteLine("문자열(String)");
 
                 string str = "aaaa";        // == string str = new string('a', 4);
-                Console.WriteLine(str);     // string은 class이기 때문에 str이 Heap 메모리의 hello 주소를 참조하고 있다.(동적 할당)
+                Console.WriteLine(str);     // string은 class이기 때문에 str이 Heap 메모리의 aaaa 주소를 참조하고 있다.(동적 할당)
             }
 
             // 메소드 오버로딩

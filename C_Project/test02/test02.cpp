@@ -46,18 +46,22 @@ int main()
 				case 1:
 					printf("\n이름순\n");
 					sortName(product);
+					showProduct(product);
 					break;
 				case 2:
 					printf("\n낮은 가격순\n");
 					sortLowPrice(product);
+					showProduct(product);
 					break;
 				case 3:
 					printf("\n높은 가격순\n");
 					sortHighPrice(product);
+					showProduct(product);
 					break;
 				case 4:
 					printf("\n평점순\n");
 					sortGrade(product);
+					showProduct(product);
 					break;
 				default:
 					printf("\n1 ~ 4번 사이의 숫자를 선택해주세요\n");
@@ -96,7 +100,6 @@ void sortName(PRODUCT* product)
 			}
 		}
 	}
-	showProduct(product);
 }
 
 void sortLowPrice(PRODUCT* product)
@@ -114,7 +117,6 @@ void sortLowPrice(PRODUCT* product)
 			}
 		}
 	}
-	showProduct(product);
 }
 
 void sortHighPrice(PRODUCT* product)
@@ -132,7 +134,6 @@ void sortHighPrice(PRODUCT* product)
 			}
 		}
 	}
-	showProduct(product);
 }
 
 void sortGrade(PRODUCT* product)
@@ -150,5 +151,4 @@ void sortGrade(PRODUCT* product)
 			}
 		}
 	}
-	showProduct(product);
 }

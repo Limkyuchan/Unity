@@ -128,7 +128,7 @@ class Student2
     private string m_name;
     public static string m_schoolName;      // 객체별로 메모리가 잡히는 것이 아니고 "정적변수"로 메모리를 잡음으로서 한 가지 값만을 사용.
 
-    public string Name { get { return m_name; } set { m_name = value; } }   //property
+    public string Name { get { return m_name; } set { m_name = value; } }   // property
     public void Intro()
     {
         Console.WriteLine("{0}에 다니는 {1}입니다.", m_schoolName, m_name);

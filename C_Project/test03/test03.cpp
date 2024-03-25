@@ -20,8 +20,8 @@ int main()
 {
     // Q3. 유저 추가 삭제 구현하기
     int choice, isTrue;
-    char id[20];
-    char name[20];
+    char id[50];
+    char name[50];
     int age;
 
     while (true)
@@ -47,7 +47,7 @@ int main()
             {
                 case 1:
                     do {    // ID 중복 처리
-                        isTrue = false;
+                        isTrue = 0;
                         printf("ID를 입력하세요: ");
                         scanf("%s", id);
 
@@ -56,10 +56,10 @@ int main()
                             if (strcmp(users[i].id, id) == 0)
                             {
                                 printf("이미 존재하는 ID입니다.\n");
-                                isTrue = true;
+                                isTrue = 1;
                                 break;
                             }
-                        }
+                        } 
                     } while (isTrue);
                     
                     printf("이름을 입력하세요: ");
@@ -86,7 +86,6 @@ int main()
         }
     }
 }
-
 
 void showUsers()
 {
@@ -116,12 +115,12 @@ void addUser(char* id, char* name, int age)
 
     // 입력된 글자만큼 메모리 동적 할당
     newUser[user_count].id = (char*)malloc(sizeof(char) * (strlen(id) + 1));
-    newUser[user_count].name = (char*)malloc(sizeof(char) * (strlen(name) + 1));
-    newUser[user_count].age = age;
-
     strcpy(newUser[user_count].id, id);
+
+    newUser[user_count].name = (char*)malloc(sizeof(char) * (strlen(name) + 1));
     strcpy(newUser[user_count].name, name);
 
+    newUser[user_count].age = age;
 
     // 기존 데이터 해제 및 대체
     free(users);

@@ -30,3 +30,4 @@ C# (24/03/15 ~ 24/04/04)
   2024/03/20 (day03) C# 문자열 기능, 문자열 변환, 입력 받기, 예외처리(try ~ catch), Object
   2024/03/21 (day04) C# var, dynamic, namespace, class(생성자, 소멸자, this, 접근지정자)
   2024/03/22 (day05) C# class(접근지정자, Get/Set, property, 정적 변수, 정적 메소드), call by reference (out, ref)
+  2024/03/25 (day06) C# 값 바꾸기(ref), foreach, 코드 관리(region/endregion), 온도변환 프로그램

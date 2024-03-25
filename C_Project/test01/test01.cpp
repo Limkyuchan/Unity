@@ -36,6 +36,7 @@ int main()
 			printf("가입하실 아이디를 email 주소를 입력해주세요\n");
 			scanf("%s", email);
 
+			// 이메일 형식 확인하기
 			if (strchr(email, '@') == NULL)
 			{
 				printf("이메일 형식을 확인하세요\n");
@@ -61,7 +62,8 @@ int main()
 			}
 			else
 			{
-				while (true)	// 비밀번호 확인하기
+				// 비밀번호 확인하기
+				while (true)
 				{
 					printf("비밀번호를 다시 입력해주세요 (6글자 이상 8글자 이내)\n");
 					scanf("%s", password2);

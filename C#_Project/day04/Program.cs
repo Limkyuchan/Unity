@@ -66,7 +66,6 @@ namespace day04
             {
                 //Console.WriteLine("\nstring 사용시 주의점 예제)");
 
-                //.Format({0:n0})        세자리 수 마다 , 찍음 (12,345)                 // day03에 추가
                 //int score = 123456789;
                 //while (true)
                 //{

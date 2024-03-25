@@ -99,7 +99,7 @@ namespace day03
                 num = int.Parse(strnum);
                 Console.WriteLine("변환한 숫자 : {0}", num);
                 num = int.Parse(Console.ReadLine());        // ReadLine 값은 모두 문자열로 읽어오기 때문에 int형으로 변환
-                Console.WriteLine("입력한 숫자: {0}", num);
+                Console.WriteLine("입력한 숫자 : {0}", num);
             }
 
             // string 기능 예제 4) 문자열 변환 시 예외처리 try ~ catch 
@@ -141,7 +141,7 @@ namespace day03
                 if (obj1 == obj2)
                     Console.WriteLine("object obj1과 obj2는 같습니다.");
                 else
-                    Console.WriteLine("object obj1과 obj2는 같지 않습니다.");
+                    Console.WriteLine("object obj1과 obj2는 같지 않습니다.");       // 주소 비교
 
                 if (num1 == num2)
                     Console.WriteLine("object num1과 num2는 같습니다.");

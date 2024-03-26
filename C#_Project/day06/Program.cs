@@ -20,21 +20,23 @@
 //  Public Methods and Operators
 //  Methods
 
+// 함수는 구조체나 클래스 내부에 작성. 해당 클래스와 어울리는 위치인가를 확인.
+
 */
 
 namespace day06
 {
     // 온도 변환 프로그램
-    class ChangeTemperature
+    class TemperatureConverter
     {
-        public ChangeTemperature() { } 
-        
-        public float CtoF(float c)
+        public TemperatureConverter() { }
+
+        public static float CtoF(float c)
         {
             return (c * 9.0f / 5.0f) + 32.0f;
         }
 
-        public float FtoC(float f)
+        public static float FtoC(float f)
         {
             return (f - 32.0f) * 5.0f / 9.0f;
         }
@@ -168,8 +170,6 @@ namespace day06
                     Console.WriteLine("[1] 섭씨 to 화씨 [2] 화씨 to 섭씨 [0] 프로그램 종료");
                     choice = int.Parse(Console.ReadLine());
 
-                    ChangeTemperature changeTemp = new ChangeTemperature();
-
                     if (choice == 0)
                     {
                         Console.WriteLine("온도 변환 프로그램을 종료합니다.");
@@ -179,14 +179,16 @@ namespace day06
                     {
                         Console.WriteLine("몇도의 섭씨온도를 화씨로 변환하시겠습니까?");
                         temperature = float.Parse(Console.ReadLine());
-                        result = changeTemp.CtoF(temperature);
+
+                        result = TemperatureConverter.CtoF(temperature);
                         Console.WriteLine("섭씨온도 {0:F2}도는 화씨온도 {1:F2}도 입니다.", temperature, result);    // 0:F2 실수 두째자리까지
                     }
                     else if (choice == 2)
                     {
                         Console.WriteLine("몇도의 화씨온도를 섭씨로 변환하시겠습니까?");
                         temperature = float.Parse(Console.ReadLine());
-                        result = changeTemp.FtoC(temperature);
+
+                        result = TemperatureConverter.FtoC(temperature);
                         Console.WriteLine("화씨온도 {0:F2}도는 섭씨온도 {1:F2}도 입니다.", temperature, result);
                     }
                     else

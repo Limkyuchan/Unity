@@ -1,0 +1,9 @@
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.csproj.AssemblyReference.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.Properties.Resources.resources
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.csproj.GenerateResource.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.csproj.CoreCompileInputs.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\bin\Debug\ButtonTest.exe.config
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\bin\Debug\ButtonTest.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\bin\Debug\ButtonTest.pdb
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\ButtonTest\ButtonTest\obj\Debug\ButtonTest.pdb

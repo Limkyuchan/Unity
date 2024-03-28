@@ -1,0 +1,7 @@
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\bin\Debug\day09.exe.config
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\bin\Debug\day09.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\bin\Debug\day09.pdb
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\obj\Debug\day09.csproj.AssemblyReference.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\obj\Debug\day09.csproj.CoreCompileInputs.cache
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\obj\Debug\day09.exe
+C:\Users\denni\OneDrive\바탕 화면\Unity\C#_Project\day09\obj\Debug\day09.pdb

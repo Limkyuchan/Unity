@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
 // 2024/03/27 : C# 배열, 배열의 기능, 일반화(함수 일반화, 클래스 일반화)
@@ -73,7 +69,6 @@ namespace day08
 
     internal class Program
     {
-
         // 배열 예제 2)
         static void PrintArray(string[] arr)
         {

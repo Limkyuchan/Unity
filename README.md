@@ -35,3 +35,4 @@ C# (24/03/15 ~ 24/04/04)
   2024/03/27 (day08) C# 배열, 배열의 기능, 일반화(함수 일반화, 클래스 일반화)
   2024/03/28 (day09) C# 대리자
   2024/03/29 (day10) C# ButtonTest, 대리자(microsoft 공식 예제)
+  2024/04/01 (day11) C# 컬렉션(ArrayList, Queue, Stack, Hashtable)

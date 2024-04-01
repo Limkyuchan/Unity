@@ -19,10 +19,9 @@ void removeUser(char* id);
 int main()
 {
     // Q3. 유저 추가 삭제 구현하기
-    int choice, isTrue;
+    int choice = 0, isTrue = 0, age = 0;
     char id[50];
     char name[50];
-    int age;
 
     while (true)
     {

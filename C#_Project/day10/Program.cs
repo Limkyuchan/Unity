@@ -12,7 +12,7 @@ using Bookstore;
 
 namespace Bookstore
 {
-    public struct Book      // 구조체는 stack에 메모리 잡혀서 반드시 초기화를 해줘야 한다.
+    public struct Book      // 구조체는 stack에 메모리 잡혀서 생성자 작성 시 반드시 초기화를 해줘야 한다.
     {
         public string Title;
         public string Author;
@@ -41,11 +41,11 @@ namespace Bookstore
 
         public void ProcessPaperbackBooks(ProcessBookDelegate processBook)
         {
-            foreach (Book b in list)
+            foreach (Book book in list)
             {
-                if (b.Paperback)
+                if (book.Paperback)
                 {
-                    processBook(b);
+                    processBook(book);
                 }
             }
         }
@@ -73,9 +73,9 @@ namespace day10
 
     internal class Program
     {
-        static void PrintTitle(Book b)
+        static void PrintTitle(Book book)
         {
-            Console.WriteLine($"    {b.Title}");
+            Console.WriteLine($"    {book.Title}");
         }
 
         static void AddBooks(BookDB bookDB)

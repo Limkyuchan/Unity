@@ -36,3 +36,4 @@ C# (24/03/15 ~ 24/04/04)
   2024/03/28 (day09) C# 대리자
   2024/03/29 (day10) C# ButtonTest, 대리자(microsoft 공식 예제)
   2024/04/01 (day11) C# 컬렉션(ArrayList, Queue, Stack, Hashtable)
+  2024/04/02 (day12) C# 제너릭 컬렉션(Dictionary, SortedList, LinkedList, List, Queue, Stack)

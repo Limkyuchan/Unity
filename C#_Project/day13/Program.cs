@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 /*
 // 2024/04/03 : C# 상속(virtual, override, new한정자)
@@ -35,7 +34,7 @@ namespace day13
 {
     internal class Program
     {
-        // 상속 예제 1, 1-1, 1-2)
+        #region 상속 예제 1, 1-1, 1-2)
         class BaseClass
         {
             // 예제 1, 1-1)
@@ -76,9 +75,9 @@ namespace day13
                 Console.WriteLine("자식 클래스 - Method2");
             }
         }
+        #endregion
 
-        
-        // new 한정자 예제 )
+        #region new 한정자 예제 )
         class BaseC
         {
             public static int x = 55;
@@ -102,39 +101,7 @@ namespace day13
                 public int c;
             }
         }
-
-
-        // 상속 예제 2)
-        class Car
-        {
-            public virtual void DescribeCar()
-            {
-                Console.WriteLine("4개의 휠이 달린 바퀴와 엔진이 있습니다.");
-                ShowDetails();
-            }
-
-            public virtual void ShowDetails()
-            {
-                Console.WriteLine("4명의 사람을 태울 수 있습니다.");
-            }
-        }
-
-        class ConvertibleCar : Car
-        {
-            public new void ShowDetails()
-            {
-                Console.WriteLine("지붕이 열립니다.");
-            }
-        }
-
-        class Minivan : Car
-        {
-            public override void ShowDetails()
-            {
-                Console.WriteLine("7명을 태울 수 있습니다.");
-            }
-        }
-
+        #endregion
 
         static void Main(string[] args)
         {
@@ -186,47 +153,6 @@ namespace day13
 
                 Console.WriteLine(c1.a);        // 출력: 100
                 Console.WriteLine(c2.a);        // 출력: 200
-            }
-
-            // 상속 예제 2) Car
-            {
-                Console.WriteLine("\n상속 예제 2)");
-
-                TestCars1();
-                TestCars2();        // ☆☆ 부모 객체, 자식 인스턴스
-            }
-        }
-
-        // 상속 예제 2)
-        public static void TestCars1()
-        {
-            Console.WriteLine("\nTestCars1");
-            Console.WriteLine("-----------");
-
-            Car car1 = new Car();
-            car1.DescribeCar();
-            Console.WriteLine("-----------");
-
-            ConvertibleCar car2 = new ConvertibleCar();
-            car2.DescribeCar();                         // 부모로 접근. 부모의 showdetail 호출(가상함수) -> override 안되있어서 부모의 showdetail 출력
-            Console.WriteLine("-----------");           // new한정자는 한정적으로 자기만 사용할 수 있기 때문에 부모로 접근 시 부모의 showdetail이 출력된다.
-
-            Minivan car3 = new Minivan();
-            car3.DescribeCar();                         // 부모로 접근. 부모의 showdetail 호출(가상함수) -> override 되어있어서 자식의 showdetail 출력
-            Console.WriteLine("-----------");
-        }
-
-        public static void TestCars2()      // ☆☆☆ 
-        {
-            Console.WriteLine("\nTestCars2");
-            Console.WriteLine("-----------");
-
-            var cars = new List<Car> { new Car(), new ConvertibleCar(), new Minivan() };        // ☆☆ 부모 객체, 자식 인스턴스
-
-            foreach (var car in cars)
-            {
-                car.DescribeCar();
-                Console.WriteLine("-----------");
             }
         }
     }

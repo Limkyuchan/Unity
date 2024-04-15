@@ -84,10 +84,10 @@ namespace day19
                     }
 
                     string[] result = filestr.Where((str) =>        // Where의 매개변수에 함수가 필요하기 떄문에, 함수를 따로 생성하지 않고
-                    {                   // 람다식으로 함수를 대신하여 사용
-                        string[] exts = new[] { ".bmp", ".txt", ".gif" };
-                        return exts.Contains(Path.GetExtension(str), StringComparer.OrdinalIgnoreCase);
-                    }).ToArray();
+                                                    {               // 람다식으로 함수를 대신하여 사용
+                                                    string[] exts = new[] { ".bmp", ".txt", ".gif" };
+                                                    return exts.Contains(Path.GetExtension(str), StringComparer.OrdinalIgnoreCase);
+                                                    }).ToArray();
                     for (int i = 0; i < result.Length; i++)
                     {
                         Console.WriteLine(result[i]);
